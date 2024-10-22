@@ -207,10 +207,10 @@ const Gallery = () => {
                   <td className="py-2 text-center">First INR 5000</td>
                 </tr>
                 <tr className="border-b-2 border-stone-400">
-                  <td className="py-2 text-center">Second INR 5000</td>
+                  <td className="py-2 text-center">Second INR 3000</td>
                 </tr>
                 <tr className="border-b-2 border-stone-400">
-                  <td className="py-2 text-center">Third INR 5000</td>
+                  <td className="py-2 text-center">Third INR 2000</td>
                 </tr>
               </tbody>
               <tbody>
@@ -235,56 +235,21 @@ const Gallery = () => {
                     className="w-[30%] md:w-1/4 text-[13px] font-semibold md:text-[20px] lg:text-lg px-2 py-2 border-b-2 border-stone-400"
                     rowSpan={13}
                   >
-                    IEEE Student Branch Best Paper Award
+                    IEEE Student Branch MNNIT Allahabad Volunteer Award
                   </td>
-                </tr>
-                <tr className="border-b-2 border-stone-400">
-                  <td className="py-2 text-center" rowSpan={3}>
-                    Microwave Track
-                  </td>
-                </tr>
-                <tr className="border-b-2 border-stone-400">
-                  <td className="py-2 text-center">First</td>
-                </tr>
-                <tr className="border-b-2 border-stone-400">
-                  <td className="py-2 text-center">Second</td>
-                </tr>
-                <tr className="border-b-2 border-stone-400">
-                  <td className="py-2 text-center" rowSpan={3}>
-                    Antenna Track
-                  </td>
-                </tr>
-                <tr className="border-b-2 border-stone-400">
-                  <td className="py-2 text-center">First</td>
-                </tr>
-                <tr className="border-b-2 border-stone-400">
-                  <td className="py-2 text-center">Second</td>
-                </tr>
-                <tr className="border-b-2 border-stone-400">
-                  <td className="py-2 text-center" rowSpan={3}>
-                    Communication Track
-                  </td>
-                </tr>
-                <tr className="border-b-2 border-stone-400">
-                  <td className="py-2 text-center">First</td>
-                </tr>
-                <tr className="border-b-2 border-stone-400">
-                  <td className="py-2 text-center">Second</td>
-                </tr>
-                <tr className="border-b-2 border-stone-400">
-                  <td className="py-2 text-center" rowSpan={3}>
-                    Emerging Technology Track
-                  </td>
-                </tr>
-                <tr className="border-b-2 border-stone-400">
-                  <td className="py-2 text-center">First</td>
-                </tr>
-                <tr className="border-b-2 border-stone-400">
-                  <td className="py-2 text-center">Second</td>
                 </tr>
               </tbody>
             </table>
           </div>
+        </div>
+        <div class="flex justify-center">
+          <a
+            href="/award.pdf"
+            download={true}
+            class="block w-[20%] text-white bg-orange-400 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-[10px] sm:text-sm px-4 py-2 text-center mb-1 sm:mb-10 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900 mt-3"
+          >
+            Best Paper Award List
+          </a>
         </div>
       </div>
       <SponsorFix />
